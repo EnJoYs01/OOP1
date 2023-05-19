@@ -1,0 +1,72 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <Filter Include="Исходные файлы">
+      <UniqueIdentifier>{4FC737F1-C7A5-4376-A066-2A32D752A2FF}</UniqueIdentifier>
+      <Extensions>cpp;c;cc;cxx;c++;cppm;ixx;def;odl;idl;hpj;bat;asm;asmx</Extensions>
+    </Filter>
+    <Filter Include="Файлы заголовков">
+      <UniqueIdentifier>{93995380-89BD-4b04-88EB-625FBE52EBFB}</UniqueIdentifier>
+      <Extensions>h;hh;hpp;hxx;h++;hm;inl;inc;ipp;xsd</Extensions>
+    </Filter>
+    <Filter Include="Файлы ресурсов">
+      <UniqueIdentifier>{67DA6AB6-F800-4c08-8B7A-83BB121AAD01}</UniqueIdentifier>
+      <Extensions>rc;ico;cur;bmp;dlg;rc2;rct;bin;rgs;gif;jpg;jpeg;jpe;resx;tiff;tif;png;wav;mfcribbon-ms</Extensions>
+    </Filter>
+    <Filter Include="Исходные файлы\Late">
+      <UniqueIdentifier>{be7fe8be-284e-43ee-98b1-ef681c474da9}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Файлы заголовков\Late">
+      <UniqueIdentifier>{b9313aed-b6b3-450d-a791-1c93bf61592c}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Файлы заголовков\Early">
+      <UniqueIdentifier>{60806771-97ee-4fc6-bcd3-6d6c4a803e68}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Исходные файлы\Early">
+      <UniqueIdentifier>{8ad13a92-0fbf-41a6-8057-18ad25e95133}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="Source.cpp">
+      <Filter>Исходные файлы</Filter>
+    </ClCompile>
+    <ClCompile Include="pch.cpp">
+      <Filter>Исходные файлы</Filter>
+    </ClCompile>
+    <ClCompile Include="PointLate.cpp">
+      <Filter>Исходные файлы\Late</Filter>
+    </ClCompile>
+    <ClCompile Include="Location.cpp">
+      <Filter>Исходные файлы</Filter>
+    </ClCompile>
+    <ClCompile Include="FigureLate.cpp">
+      <Filter>Исходные файлы\Late</Filter>
+    </ClCompile>
+    <ClCompile Include="FigureEarly.cpp">
+      <Filter>Исходные файлы\Early</Filter>
+    </ClCompile>
+    <ClCompile Include="PointEarly.cpp">
+      <Filter>Исходные файлы\Early</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="pch.h">
+      <Filter>Файлы заголовков</Filter>
+    </ClInclude>
+    <ClInclude Include="PointLate.h">
+      <Filter>Файлы заголовков\Late</Filter>
+    </ClInclude>
+    <ClInclude Include="Location.h">
+      <Filter>Файлы заголовков</Filter>
+    </ClInclude>
+    <ClInclude Include="FigureLate.h">
+      <Filter>Файлы заголовков\Late</Filter>
+    </ClInclude>
+    <ClInclude Include="FigureEarly.h">
+      <Filter>Файлы заголовков\Early</Filter>
+    </ClInclude>
+    <ClInclude Include="PointEarly.h">
+      <Filter>Файлы заголовков\Early</Filter>
+    </ClInclude>
+  </ItemGroup>
+</Project>
